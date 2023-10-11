@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kalam', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+.NavBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: #171717;
+    z-index: 7;
+}
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+.logo .l{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: -5px;
+    font-family: 'Dosis', sans-serif;
+}
+.navop{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 10px;
+    cursor: pointer;
+}
+.nbar{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 2px;
+    background-color: #ffffff;
+}
+.Page1{
+    position: absolute;
+    width: 100%;
+    height: 150vh;
+}
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: #171717;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ffffff;
+}
+.LandingPanel{
+    position: absolute;
+    top: 8vh;        
+    left: 0%;
+    width: 100%;
+    height: 90%;
+    background-image:linear-gradient(180deg,#ffffff00,#ffffff00,#ffffff), url('wallpaper.jpg');
+    background-size: cover;
+    background-position: 0% 50%;
+}
+.Page2{
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+    height: 100vh;
+}
+.ImageGrid{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    display: flex;
+    flex-wrap: wrap;
+}
+.IG{
+    min-width: 200px;
+    min-height: 200px;
+    background-color: #111111;
+    margin: 4px;
+    background-size: cover;
+    background-position: center;
+}
+#IG1{
+    width: calc(40% - 8px);
+    background-image: url(https://images.pexels.com/photos/929606/pexels-photo-929606.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+#IG2{
+    width: calc(60% - 8px);
+    background-image: url(https://images.pexels.com/photos/15178237/pexels-photo-15178237/free-photo-of-light-dawn-landscape-sunset.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+#IG3{
+    width: calc(20% - 8px);
+    background-image: url(https://images.pexels.com/photos/15178237/pexels-photo-15178237/free-photo-of-light-dawn-landscape-sunset.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+#IG4{
+    width: calc(30% - 8px);
+    background-image: url(https://images.pexels.com/photos/13334103/pexels-photo-13334103.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+#IG5{
+    width: calc(50% - 8px);
+    background-image: url(https://images.pexels.com/photos/13397201/pexels-photo-13397201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+#IG6{
+    width: calc(25% - 8px);
+    background-image: url(https://images.pexels.com/photos/15517404/pexels-photo-15517404/free-photo-of-fog-over-sitting-dog.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: bottom;
+}
+#IG7{
+    width: calc(25% - 8px);
+    background-image: url(https://images.pexels.com/photos/18262223/pexels-photo-18262223.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+#IG8{
+    width: calc(50% - 8px);
+    background-image: url(https://images.pexels.com/photos/13397201/pexels-photo-13397201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.LandingPanelTagLine{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.LandingPanelTagLine h1{
+    color: #0f5b68;
+    font-size: 50px;
+}
